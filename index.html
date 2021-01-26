@@ -73,9 +73,15 @@
       padding: 16px;
       color: white;
       font-weight: bold;
-      font-size: 18px;
       transition: 0.6s ease;
       border-radius: 0 3px 3px 0;
+      font-size: 2em;
+    }
+
+    @media (min-width: 320px) and (max-width: 480px) {
+      .next, .prev {
+        font-size: 6em;
+      }
     }
 
     .next {
